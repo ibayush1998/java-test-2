@@ -10,6 +10,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
 }
 
+/*
 tasks.test {
     useJUnit {
         // Configure XML output for test results
@@ -25,3 +26,4 @@ tasks.test {
         }
     }
 }
+*/
