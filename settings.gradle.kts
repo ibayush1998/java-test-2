@@ -10,5 +10,11 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.7.0"
 }
 
+pluginManagement {
+    repositories {
+        maven { url "https://plugins.gradle.org/m2/" }
+        gradlePluginPortal()
+    }
+}
 rootProject.name = "java-test-2"
 include("app")
